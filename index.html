@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet" />
+
+    <title>Clock</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Digital clock -->
+    <div class="calendar">
+      <p class="js-day"></p>
+      <p class="js-date"></p>
+      <p class="js-month"></p>
+      <p class="js-year"></p>
+    </div>
+    <p class="digital-clock js-digital-clock"></p>
+    <!-- Mechanics clock -->
+    <div class="clock">
+      <div class="clock-arrow clock-seconds__arrow"></div>
+      <div class="clock-arrow clock-minutes__arrow"></div>
+      <div class="clock-arrow clock-hours__arrow"></div>
+      <div class="clock-center"></div>
+    </div>
+    <!-- Sand clock -->
+    <!-- <div class="hourglass"></div> -->
+    <!-- Scripts -->
+    <script src="script.js"></script>
+  </body>
+</html>
